@@ -12,6 +12,9 @@ Nothing here retrains, edits or replaces any model or dataset. It only:
 
 Run:  python3 web_app/backend/app.py     (from the fraud_project folder)
 """
+
+
+from flask_cors import CORS
 import re
 import warnings
 from datetime import date, datetime
@@ -61,6 +64,13 @@ CATEGORY_OPTIONS = {name: [str(v) for v in cats]
                     if name != "tenure_bucket"}      # tenure_bucket is derived, not entered
 
 app = Flask(__name__, static_folder=None)
+
+CORS(app, resources={
+    r"/api/*": {
+        "origins": ["https://fraudshield-ai-delta.vercel.app"]
+    }
+})
+
 app.config["MAX_CONTENT_LENGTH"] = 32 * 1024
 
 
