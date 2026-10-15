@@ -1,0 +1,175 @@
+{
+  "classification_metrics": {
+    "accuracy": 0.9808333333333333,
+    "precision": 1.0,
+    "recall": 0.7526881720430108,
+    "f1": 0.8588957055214724,
+    "roc_auc": 0.8896222474769551
+  },
+  "ner_keyword_examples": [
+    {
+      "claim_id": "CLM501229",
+      "is_fraud": 0,
+      "description": "Patient admitted for scheduled surgery, all documents and hospital bills attached as per policy.",
+      "entities": {
+        "MONEY": [],
+        "LOCATION": [],
+        "ORG": [
+          "hospital"
+        ],
+        "DATE": []
+      },
+      "keywords": [
+        "for scheduled",
+        "all documents",
+        "documents and",
+        "documents",
+        "and hospital"
+      ]
+    },
+    {
+      "claim_id": "CLM505499",
+      "is_fraud": 0,
+      "description": "Kitchen fire caused smoke damage to walls and ceiling, fire department report attached.",
+      "entities": {
+        "MONEY": [],
+        "LOCATION": [],
+        "ORG": [
+          "fire department"
+        ],
+        "DATE": []
+      },
+      "keywords": [
+        "fire",
+        "walls and",
+        "to walls",
+        "and ceiling",
+        "smoke damage"
+      ]
+    },
+    {
+      "claim_id": "CLM500694",
+      "is_fraud": 0,
+      "description": "Flight was delayed by 9 hours due to weather, claiming for meal and hotel expenses as per policy terms.",
+      "entities": {
+        "MONEY": [
+          "9"
+        ],
+        "LOCATION": [],
+        "ORG": [],
+        "DATE": [
+          "9 hours"
+        ]
+      },
+      "keywords": [
+        "expenses",
+        "expenses as",
+        "hotel",
+        "hotel expenses",
+        "hours"
+      ]
+    },
+    {
+      "claim_id": "CLM501068",
+      "is_fraud": 0,
+      "description": "Flight was delayed by 9 hours due to weather, claiming for meal and hotel expenses as per policy terms.",
+      "entities": {
+        "MONEY": [
+          "9"
+        ],
+        "LOCATION": [],
+        "ORG": [],
+        "DATE": [
+          "9 hours"
+        ]
+      },
+      "keywords": [
+        "expenses",
+        "expenses as",
+        "hotel",
+        "hotel expenses",
+        "hours"
+      ]
+    },
+    {
+      "claim_id": "CLM503922",
+      "is_fraud": 0,
+      "description": "Patient admitted for scheduled surgery, all documents and hospital bills attached as per policy.",
+      "entities": {
+        "MONEY": [],
+        "LOCATION": [],
+        "ORG": [
+          "hospital"
+        ],
+        "DATE": []
+      },
+      "keywords": [
+        "for scheduled",
+        "all documents",
+        "documents and",
+        "documents",
+        "and hospital"
+      ]
+    },
+    {
+      "claim_id": "CLM500574",
+      "is_fraud": 1,
+      "description": "Total loss claim for vehicle with no photos, repair shop cannot be verified, contact number invalid.",
+      "entities": {
+        "MONEY": [],
+        "LOCATION": [],
+        "ORG": [
+          "repair shop"
+        ],
+        "DATE": []
+      },
+      "keywords": [
+        "shop cannot",
+        "shop",
+        "number invalid",
+        "claim for",
+        "no photos"
+      ]
+    },
+    {
+      "claim_id": "CLM501428",
+      "is_fraud": 0,
+      "description": "Minor collision in parking lot, both parties exchanged insurance details, repair estimate attached.",
+      "entities": {
+        "MONEY": [],
+        "LOCATION": [],
+        "ORG": [
+          "insurance"
+        ],
+        "DATE": []
+      },
+      "keywords": [
+        "exchanged insurance",
+        "minor collision",
+        "exchanged",
+        "both",
+        "both parties"
+      ]
+    },
+    {
+      "claim_id": "CLM501393",
+      "is_fraud": 1,
+      "description": "Total loss claim for vehicle with no photos, repair shop cannot be verified, contact number invalid.",
+      "entities": {
+        "MONEY": [],
+        "LOCATION": [],
+        "ORG": [
+          "repair shop"
+        ],
+        "DATE": []
+      },
+      "keywords": [
+        "shop cannot",
+        "shop",
+        "number invalid",
+        "claim for",
+        "no photos"
+      ]
+    }
+  ]
+}

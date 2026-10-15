@@ -1,0 +1,37 @@
+:root {
+  /* Palette from the brief: navy, white/grey, teal, and red / amber / green for risk */
+  --navy-900: #0a1b33;
+  --navy-800: #0f2748;
+  --navy-700: #1b3a66;
+  --ink: #0b1f3a;
+  --ink-soft: #3f526b;
+  --ink-mute: #66778f;
+  --white: #ffffff;
+  --grey-50: #f6f8fb;
+  --grey-100: #eef2f7;
+  --line: #dde5ee;
+  --teal-500: #14b8b0;
+  --teal-600: #0d8f93;      /* teal text / icons on white */
+  --teal-700: #0a7478;      /* button background, white text passes AA */
+  --teal-100: #d9f3f1;
+  --risk-high: #c93a3a;
+  --risk-high-bg: #fdeeee;
+  --risk-med: #a86a00;
+  --risk-med-bg: #fdf3dc;
+  --risk-low: #1f8a5b;
+  --risk-low-bg: #e3f6ec;
+
+  --font-display: 'Bricolage Grotesque', 'Segoe UI', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --shadow-sm: 0 1px 2px rgba(11, 31, 58, 0.06), 0 1px 1px rgba(11, 31, 58, 0.04);
+  --shadow-md: 0 8px 24px -8px rgba(11, 31, 58, 0.16);
+  --shadow-lg: 0 24px 60px -24px rgba(11, 31, 58, 0.35);
+
+  --gutter: clamp(1rem, 4vw, 2rem);
+  --max: 1160px;
+  --section-y: clamp(3.5rem, 8vw, 6.5rem);
+}

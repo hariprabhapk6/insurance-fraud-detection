@@ -1,0 +1,7 @@
+{
+  "total_decisions": 1500,
+  "fraud_caught_rate": 0.8151260504201681,
+  "auto_approved_count": 1398,
+  "final_threshold_escalate": 0.55,
+  "final_threshold_reject": 0.8
+}

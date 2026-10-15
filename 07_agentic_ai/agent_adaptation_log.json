@@ -1,0 +1,41 @@
+[
+  {
+    "round": 0,
+    "batch_size": 500,
+    "n_auto_approve": 457,
+    "n_escalate": 40,
+    "n_reject": 3,
+    "missed_fraud_in_approved": 10,
+    "false_escalations": 2,
+    "threshold_escalate_before": 0.55,
+    "threshold_escalate_after": 0.55,
+    "threshold_reject": 0.8,
+    "adaptation_reason": "no change"
+  },
+  {
+    "round": 1,
+    "batch_size": 500,
+    "n_auto_approve": 467,
+    "n_escalate": 31,
+    "n_reject": 2,
+    "missed_fraud_in_approved": 7,
+    "false_escalations": 2,
+    "threshold_escalate_before": 0.55,
+    "threshold_escalate_after": 0.55,
+    "threshold_reject": 0.8,
+    "adaptation_reason": "no change"
+  },
+  {
+    "round": 2,
+    "batch_size": 500,
+    "n_auto_approve": 474,
+    "n_escalate": 25,
+    "n_reject": 1,
+    "missed_fraud_in_approved": 5,
+    "false_escalations": 1,
+    "threshold_escalate_before": 0.55,
+    "threshold_escalate_after": 0.55,
+    "threshold_reject": 0.8,
+    "adaptation_reason": "no change"
+  }
+]

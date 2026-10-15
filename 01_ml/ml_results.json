@@ -1,0 +1,107 @@
+{
+  "results": {
+    "logistic_regression": {
+      "metrics": {
+        "accuracy": 0.6466666666666666,
+        "precision": 0.10311750599520383,
+        "recall": 0.46236559139784944,
+        "f1": 0.16862745098039217,
+        "roc_auc": 0.5959339880137152
+      },
+      "confusion_matrix": [
+        [
+          733,
+          374
+        ],
+        [
+          50,
+          43
+        ]
+      ]
+    },
+    "random_forest": {
+      "metrics": {
+        "accuracy": 0.93,
+        "precision": 0.5454545454545454,
+        "recall": 0.5806451612903226,
+        "f1": 0.5625,
+        "roc_auc": 0.8619343182679139
+      },
+      "confusion_matrix": [
+        [
+          1062,
+          45
+        ],
+        [
+          39,
+          54
+        ]
+      ]
+    }
+  },
+  "best_model": "random_forest",
+  "top_features": [
+    [
+      "desc_length",
+      0.18727636312333576
+    ],
+    [
+      "desc_word_count",
+      0.177254597243442
+    ],
+    [
+      "policy_tenure_months",
+      0.0883850012275266
+    ],
+    [
+      "prior_claims_count",
+      0.0706288044953378
+    ],
+    [
+      "claimant_age",
+      0.06403749794335316
+    ],
+    [
+      "annual_income",
+      0.06034934369758021
+    ],
+    [
+      "claim_to_income_ratio",
+      0.05884823014833426
+    ],
+    [
+      "claim_amount",
+      0.051656469173851007
+    ],
+    [
+      "claim_month",
+      0.03509476093563444
+    ],
+    [
+      "claim_dow",
+      0.025013206437075334
+    ],
+    [
+      "tenure_bucket_<3mo(new)",
+      0.02054816673784994
+    ],
+    [
+      "tenure_bucket_3yr+",
+      0.009240640201293763
+    ],
+    [
+      "claim_type_Travel",
+      0.008702381275381985
+    ],
+    [
+      "gender_Other",
+      0.008518061596034904
+    ],
+    [
+      "claim_type_Life",
+      0.007318140618862517
+    ]
+  ],
+  "test_size": 1200,
+  "train_size": 4800
+}

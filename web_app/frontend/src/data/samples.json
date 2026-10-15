@@ -1,0 +1,54 @@
+[
+  {
+    "claim_type": "Auto",
+    "claim_date": "2024-04-09",
+    "claimant_age": 27,
+    "annual_income": 305140.43,
+    "policy_tenure_months": 87,
+    "claim_amount": 37139.91,
+    "prior_claims_count": 2,
+    "city": "Mumbai",
+    "gender": "F",
+    "occupation": "Retired",
+    "claim_description": "Minor collision in parking lot, both parties exchanged insurance details, repair estimate attached."
+  },
+  {
+    "claim_type": "Health",
+    "claim_date": "2022-12-22",
+    "claimant_age": 29,
+    "annual_income": 335077.92,
+    "policy_tenure_months": 55,
+    "claim_amount": 40312.85,
+    "prior_claims_count": 1,
+    "city": "Unknown",
+    "gender": "M",
+    "occupation": "Retired",
+    "claim_description": "Patient admitted for scheduled surgery, all documents and hospital bills attached as per policy."
+  },
+  {
+    "claim_type": "Auto",
+    "claim_date": "2025-01-06",
+    "claimant_age": 43,
+    "annual_income": 832005.09,
+    "policy_tenure_months": 3,
+    "claim_amount": 6603.89,
+    "prior_claims_count": 0,
+    "city": "Pune",
+    "gender": "Other",
+    "occupation": "Business Owner",
+    "claim_description": "Vehicle stolen from an unspecified location, no witnesses, no police FIR number provided yet."
+  },
+  {
+    "claim_type": "Property",
+    "claim_date": "2025-06-04",
+    "claimant_age": 54,
+    "annual_income": 307579.3,
+    "policy_tenure_months": 30,
+    "claim_amount": 37265.69,
+    "prior_claims_count": 1,
+    "city": "Chennai",
+    "gender": "F",
+    "occupation": "Unemployed",
+    "claim_description": "Property damage claim filed right before policy renewal, inflated repair estimate from unlisted vendor."
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "average_rouge_1_recall": 1.0,
+  "reports": [
+    {
+      "claim_id": "CLM500199",
+      "original_description": "Same bank account used across three different claimant names in the past month.",
+      "extractive_summary": "Same bank account used across three different claimant names in the past month.",
+      "investigator_explanation": "Investigator note: This claim was flagged as potentially fraudulent because description flagged for suspicious language ('across, account, bank').",
+      "rouge_1_recall_vs_original": 1.0
+    },
+    {
+      "claim_id": "CLM504585",
+      "original_description": "Property damage claim filed right before policy renewal, inflated repair estimate from unlisted vendor.",
+      "extractive_summary": "Property damage claim filed right before policy renewal, inflated repair estimate from unlisted vendor.",
+      "investigator_explanation": "Investigator note: This claim was flagged as potentially fraudulent because description flagged for suspicious language ('from unlisted, right before, right').",
+      "rouge_1_recall_vs_original": 1.0
+    },
+    {
+      "claim_id": "CLM500745",
+      "original_description": "Minor collision in parking lot, both parties exchanged insurance details, repair estimate attached.",
+      "extractive_summary": "Minor collision in parking lot, both parties exchanged insurance details, repair estimate attached.",
+      "investigator_explanation": "Investigator note: This claim was flagged as potentially fraudulent because description flagged for suspicious language ('exchanged insurance, minor collision, exchanged').",
+      "rouge_1_recall_vs_original": 1.0
+    },
+    {
+      "claim_id": "CLM501341",
+      "original_description": "Hospital named on the bill does not match records, treatment dates overlap with another claim.",
+      "extractive_summary": "Hospital named on the bill does not match records, treatment dates overlap with another claim.",
+      "investigator_explanation": "Investigator note: This claim was flagged as potentially fraudulent because description flagged for suspicious language ('with another, overlap with, bill').",
+      "rouge_1_recall_vs_original": 1.0
+    },
+    {
+      "claim_id": "CLM500870",
+      "original_description": "Injury claim with no medical report, claimant requests direct cash settlement urgently.",
+      "extractive_summary": "Injury claim with no medical report, claimant requests direct cash settlement urgently.",
+      "investigator_explanation": "Investigator note: This claim was flagged as potentially fraudulent because description flagged for suspicious language ('claimant requests, medical report, requests direct').",
+      "rouge_1_recall_vs_original": 1.0
+    },
+    {
+      "claim_id": "CLM501843",
+      "original_description": "Policyholder passed away due to natural causes, death certificate and medical history submitted.",
+      "extractive_summary": "Policyholder passed away due to natural causes, death certificate and medical history submitted.",
+      "investigator_explanation": "Investigator note: This claim was flagged as potentially fraudulent because description flagged for suspicious language ('passed, natural, natural causes').",
+      "rouge_1_recall_vs_original": 1.0
+    }
+  ]
+}
